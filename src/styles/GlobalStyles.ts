@@ -14,6 +14,7 @@ const GlobalStyle = createGlobalStyle`
 
     body{
         background-color: var(--app-bg-color);
+        margin: 0px;
     }
 `;
 
