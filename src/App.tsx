@@ -1,6 +1,8 @@
-import GlobalStyle from "./styles/GlobalStyles";
-import Greetings from "./components/Greetings";
 import styled from "styled-components";
+import GlobalStyle from "./styles/GlobalStyles";
+
+import AppLayout from "./components/AppLayout";
+
 const StyledMain = styled.main`
   display: flex;
   flex-direction: column;
@@ -15,8 +17,7 @@ function App() {
   return (
     <StyledMain>
       <GlobalStyle />
-      <Greetings />
-      <>Another Element</>
+      <AppLayout />
     </StyledMain>
   );
 }
