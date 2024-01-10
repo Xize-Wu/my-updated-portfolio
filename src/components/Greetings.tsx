@@ -10,6 +10,9 @@ const StyledGreetings = styled.div`
   width: 100%;
   display: flex;
   align-items: center;
+
+  scroll-snap-align: center;
+
 `;
 
 const StyledInfo = styled.section`
